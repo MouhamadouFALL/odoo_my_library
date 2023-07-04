@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+
+        <menuitem name="My Library" id="library_base_menu" />
+            <menuitem name="Books" id="library_book_menu" parent="library_base_menu" action="library_book_action"/>
+            <menuitem name="Book Categories" id="library_book_category_menu" parent="library_base_menu" action="library_book_category_action"/>
+            <menuitem name="Book on rent" id="library_book_rent_menu" parent="library_base_menu" action="library_book_rent_action"/>
+
+
+    </data>
+</odoo>
